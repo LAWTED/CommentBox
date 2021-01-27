@@ -12,7 +12,7 @@ const mutations = {
 const actions = {
 
   loadPosts({commit}) {
-    const uri = '/apis/Epost'
+    const uri = '/api/Epost'
     axios.get(uri).then(
       res => {
         const posts = res.data

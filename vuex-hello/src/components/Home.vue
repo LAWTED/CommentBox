@@ -25,7 +25,7 @@ export default {
   /*background-color:white;*/
   width: 400px;
   min-height: 30vh;
-  margin: 20px auto;
+  margin: 50px auto;
   box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
   border-radius: 15px;
   position: relative;
@@ -56,7 +56,7 @@ a{
   text-decoration: none;
   font-size: large;
 }
-a:link {color: gray}     /* 未访问的链接 */
+a:link {color: black}     /* 未访问的链接 */
 a:visited {color: black}  /* 已访问的链接 */
 a:hover {color: grey}    /* 当有鼠标悬停在链接上 */
 </style>

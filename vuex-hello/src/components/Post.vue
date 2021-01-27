@@ -39,11 +39,11 @@ export default {
   .upper{
     display: flex;
     min-height: 40vh;
-    background-color: aquamarine;
+    background-color: white;
   }
   .bottom {
     display: flex;
     flex-grow: 1;
-    background-color: bisque;
+    background-color: white;
   }
 </style>

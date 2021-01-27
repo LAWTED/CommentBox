@@ -16,7 +16,7 @@ const mutations = {
 const actions = {
   //这个部分需要重写
   addComment({commit}, {comment}) {
-    const uri = '/apis/Ecomments'
+    const uri = '/api/Ecomments'
     axios.post(uri,comment).then(
       res =>{
         const comment = res.data
@@ -25,7 +25,7 @@ const actions = {
     )
   },
   loadComments({commit}){
-    const uri= '/apis/Ecomments'
+    const uri= '/api/Ecomments'
     axios.get(uri).then(
       res =>{
         let comments = res.data

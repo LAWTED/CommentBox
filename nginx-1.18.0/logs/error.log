@@ -208,4 +208,34 @@ ginx-1.18.0\html" failed (123: The filename, directory name, or volume label syn
 2021/01/25 14:38:17 [error] 24392#23608: *76 CreateFile() "D:\nginx-1.18.0/html/50x.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 171.82.18.177, request: "GET /apis/Ecomments HTTP/1.1", upstream: "http://171.82.18.177:3000/Ecomments", host: "localhost:9999", referrer: "http://localhost:9999/"
 2021/01/25 14:43:25 [notice] 5220#24948: signal process started
 2021/01/25 14:55:48 [notice] 532#912: signal process started
-2021/01/26 14:57:51 [notice] 12124#5684: signal process started
+2021/01/27 15:57:08 [notice] 21436#20228: signal process started
+2021/01/27 16:02:50 [notice] 15168#19328: signal process started
+2021/01/27 16:28:40 [emerg] 23144#10088: unknown "domain" variable
+2021/01/27 16:29:24 [emerg] 6188#18180: unknown "domain" variable
+2021/01/27 16:29:40 [emerg] 9504#20608: unknown "domain" variable
+2021/01/27 16:29:47 [emerg] 1532#10892: unknown "domain" variable
+2021/01/27 16:30:57 [notice] 18892#14048: signal process started
+2021/01/27 16:33:58 [notice] 4172#9476: signal process started
+2021/01/27 16:34:38 [notice] 5444#20956: signal process started
+2021/01/27 16:37:56 [notice] 14756#13864: signal process started
+2021/01/27 16:44:25 [notice] 13200#2412: signal process started
+2021/01/27 16:46:41 [notice] 20528#19204: signal process started
+2021/01/27 16:47:41 [notice] 21844#18124: signal process started
+2021/01/27 16:55:28 [notice] 8608#20732: signal process started
+2021/01/27 16:56:00 [notice] 23000#7572: signal process started
+2021/01/27 16:56:01 [notice] 16584#14992: signal process started
+2021/01/27 16:56:02 [notice] 22160#19684: signal process started
+2021/01/27 16:59:29 [emerg] 8852#18560: host not found in upstream "static_backend" in D:\nginx-1.18.0/conf/nginx.conf:51
+2021/01/27 17:00:45 [notice] 17672#4580: signal process started
+2021/01/27 17:02:17 [emerg] 22504#5540: unknown directive "https" in D:\nginx-1.18.0/conf/nginx.conf:17
+2021/01/27 17:02:35 [notice] 14520#13964: signal process started
+2021/01/27 17:06:33 [notice] 4064#21536: signal process started
+2021/01/27 17:07:49 [notice] 21384#7232: signal process started
+2021/01/27 17:09:37 [emerg] 21960#6608: host not found in upstream "static_backend" in D:\nginx-1.18.0/conf/nginx.conf:62
+2021/01/27 17:11:24 [notice] 19404#15072: signal process started
+2021/01/27 17:13:06 [emerg] 15960#20864: invalid URL prefix in D:\nginx-1.18.0/conf/nginx.conf:62
+2021/01/27 17:13:48 [emerg] 23472#20944: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in D:\nginx-1.18.0/conf/nginx.conf:62
+2021/01/27 17:14:58 [emerg] 21936#10588: invalid URL prefix in D:\nginx-1.18.0/conf/nginx.conf:62
+2021/01/27 17:16:38 [emerg] 23468#22596: invalid URL prefix in D:\nginx-1.18.0/conf/nginx.conf:61
+2021/01/27 17:18:35 [notice] 10932#12152: signal process started
+2021/01/27 17:26:33 [notice] 15844#7444: signal process started
