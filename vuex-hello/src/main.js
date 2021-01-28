@@ -16,3 +16,9 @@ new Vue({
   router,store,
   template: '<App/>'
 })
+
+router.beforeEach((to, from, next) => {
+  console.log(store);
+  if (to.path !== '/login' && !store.state.login.user) next({ path: '/login' })
+  else next()
+})

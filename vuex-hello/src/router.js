@@ -11,6 +11,11 @@ export default new Router({
   mode:'hash',
   routes:[
     {
+      path: '/',
+      name: 'Main',
+      component: Main
+    },
+    {
       path:'/home',
       component: Home
     },
@@ -19,15 +24,9 @@ export default new Router({
       component: Post
     },
     {
-      path: '/',
-      name: 'Main',
-      component: Main
-    },
-    {
       path: '/login',
       name: 'Login',
       component: Login
-
     }
   ]
 })

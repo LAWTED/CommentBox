@@ -25,6 +25,9 @@ export default {
       postId(){
         return this.$route.params.id
       }
+  }, created:function () {
+    this.$store.dispatch({type:'loadComments'})
+    this.$store.dispatch({type:'loadPosts'})
   }
 }
 </script>

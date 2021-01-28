@@ -239,3 +239,9 @@ ginx-1.18.0\html" failed (123: The filename, directory name, or volume label syn
 2021/01/27 17:16:38 [emerg] 23468#22596: invalid URL prefix in D:\nginx-1.18.0/conf/nginx.conf:61
 2021/01/27 17:18:35 [notice] 10932#12152: signal process started
 2021/01/27 17:26:33 [notice] 15844#7444: signal process started
+2021/01/28 09:22:21 [notice] 14492#12828: signal process started
+2021/01/28 09:26:58 [notice] 15960#14248: signal process started
+2021/01/28 09:39:36 [error] 17428#17976: *1 CreateFile() "D:\github\new\CommentBox\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9999", referrer: "http://127.0.0.1:9999/"
+2021/01/28 09:56:26 [notice] 15180#12788: signal process started
+2021/01/28 10:02:46 [error] 19168#17680: *11 CreateFile() "D:\github\new\CommentBox\nginx-1.18.0/html/post/1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /post/1 HTTP/1.1", host: "127.0.0.1:9999"
+2021/01/28 10:02:50 [error] 19168#17680: *11 CreateFile() "D:\github\new\CommentBox\nginx-1.18.0/html/post" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /post HTTP/1.1", host: "127.0.0.1:9999"

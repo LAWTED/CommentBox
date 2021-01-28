@@ -16,7 +16,10 @@ export default {
   name: "Home",
   computed:{
     posts(){return this.$store.state.post.all}
-  }
+  },created:function () {
+    // this.$store.dispatch({type:'loadComments'})
+    this.$store.dispatch({type:'loadPosts'})
+  },
 }
 </script>
 
